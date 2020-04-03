@@ -25,13 +25,13 @@ public class infrastruktura {
 
         }
 
-        for(Entry<String, HashSet<String>> m : mesta.entrySet()){
+        /*for(Entry<String, HashSet<String>> m : mesta.entrySet()){
             System.out.print(m.getKey() + ": ");
             for(String p : m.getValue()){
                 System.out.print(p + " ");
             }
             System.out.println();
-        }
+        }*/
 
         // do the BFS
         HashSet<String> preverjena = new HashSet<>();
@@ -53,7 +53,7 @@ public class infrastruktura {
                 }
             }
         }
-        System.out.println("---");
+        //System.out.println("---");
         for(String p : dodanePovezave){
             System.out.println(p);
         }
