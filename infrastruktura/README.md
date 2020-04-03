@@ -1,0 +1,1 @@
+Zaženi z `cat test.in | java infrastruktura.java`!
