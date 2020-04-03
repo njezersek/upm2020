@@ -6,18 +6,18 @@ public class mesta {
         Scanner sc = new Scanner(System.in);
 
         int T = sc.nextInt();
-        sc.nextLine();
-
+        //System.out.println("T="+T);
+        
         for(int t = 0; t < T; t++){
             int N = sc.nextInt();
-            sc.nextLine();
+            //System.out.println("N"+t+"="+N);
             int sum = 0;
             for(int n = 0; n<N-1; n++){
-                String line = sc.nextLine();
-                String[] dolzine = line.split(" ");
+                int K = sc.nextInt();
+                //System.out.println("K"+t+","+n+"="+K);
                 int min = Integer.MAX_VALUE;
-                for(String d : dolzine){
-                    int dd = Integer.parseInt(d);
+                for(int k=0; k<K; k++){
+                    int dd = sc.nextInt();
                     if(dd < min)min = dd;
                 }
                 sum += min;
