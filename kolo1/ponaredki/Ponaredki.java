@@ -1,5 +1,3 @@
-package kolo1.ponaredki;
-
 import java.util.Scanner;
 
 public class Ponaredki {
