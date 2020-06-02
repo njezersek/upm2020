@@ -1,4 +1,4 @@
-package kolo1;
+package kolo1.naloga1;
 
 public class Test {
     public static void main(String[] args) {

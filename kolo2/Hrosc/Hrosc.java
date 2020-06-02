@@ -13,5 +13,7 @@ public class Hrosc {
             if(i%2 != 0)skatla++;
             i++;
         }
+
+        sc.nextInt();
     }
 }
